@@ -12,7 +12,7 @@ for i in reversed(range(1,time)):
     print 'Time left is', i , 'seconds'
     Time.sleep(1)
 
-text =  str(time) + ' seconds has been completed'
+text = str(time) + ' seconds has been completed'
 print text
 Notifier.notify(text, title='Timer')
 
